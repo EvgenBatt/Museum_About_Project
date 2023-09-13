@@ -1,0 +1,318 @@
+/* Normalize Styles */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  padding: 0;
+  cursor: pointer;
+}
+
+/* Common Styles */
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: rgba(29, 29, 27, 1);
+  background-color: rgba(255, 255, 255, 1);
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0 110px;
+  margin: 0 auto;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  max-width: 678px;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+/* Section About Hero */
+
+.about-hero {
+  margin-bottom: 20px;
+}
+
+.about-hero-img {
+  width: 100%;
+  height: 275px;
+  object-fit: contain;
+  background-image: url(../img/about-hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 60%;
+}
+
+/* Section About Project */
+
+.about-project {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.about-content-mb0 {
+  margin-bottom: 0;
+}
+
+.about-title {
+  font-family: "KyivType Sans", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.2; /* 48/40 */
+  text-align: center;
+  color: rgba(51, 51, 51, 1);
+  margin-bottom: 48px;
+}
+
+.about-wrap {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 13px;
+  margin-bottom: 20px;
+}
+
+.about-img {
+}
+
+.about-subtitile {
+  font-family: "KyivType Sans", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.33; /* 32/24 */
+}
+
+.about-text {
+  line-height: 1.73; /* 26/15 */
+}
+
+/* About Pictures */
+
+.about-pictures {
+  display: flex;
+  align-items: flex-end;
+  gap: 60px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.about-pictures-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  position: relative;
+}
+
+.pictures-content-top {
+  margin-bottom: 193px;
+}
+
+.about-pictures-triangle-blue {
+  position: absolute;
+  top: 26px;
+  left: -51px;
+}
+
+.about-pictures-triangle-red {
+  position: absolute;
+  bottom: 41px;
+  left: -105px;
+}
+
+.about-pictures-text {
+  font-style: italic;
+  font-size: 13px;
+  line-height: 1.38; /* 18/13 */
+  text-align: center;
+  color: rgba(87, 87, 87, 1);
+}
+
+/* Section About Collection */
+
+.about-collection {
+  padding-top: 79px;
+  padding-bottom: 67px;
+  background-image: url(../img/about-collection-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+/* Slick Slider */
+
+.about-collection-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-collection-slide-img {
+  margin-bottom: 16px;
+}
+
+.about-collection-slide-text {
+  max-width: 478px;
+  font-style: italic;
+  font-size: 13px;
+  line-height: 1.38; /* 18/13 */
+  text-align: center;
+  color: rgba(87, 87, 87, 1);
+}
+
+/* Section About Names */
+
+.about-names {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.about-names-pictures {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  row-gap: 37px;
+  column-gap: 230px;
+  margin-bottom: 60px;
+}
+
+.about-names-pictures-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  position: relative;
+}
+
+.about-names-kat-myh {
+  max-width: 347px;
+}
+
+.about-names-olymp-yosip {
+  max-width: 566px;
+}
+
+.about-names-aleks {
+  max-width: 543px;
+}
+
+.about-names-pictures-triangle-blue {
+  position: absolute;
+  top: 31px;
+  right: -56px;
+}
+
+.about-names-pictures-triangle-red {
+  position: absolute;
+  bottom: 96px;
+  left: -56px;
+}
+
+.about-names-pictures-triangle-yellow {
+  position: absolute;
+  top: 60px;
+  right: -80px;
+}
+
+.about-names-pictures-text {
+  font-style: italic;
+  font-size: 13px;
+  line-height: 1.38; /* 18/13 */
+  text-align: center;
+  color: rgba(87, 87, 87, 1);
+}
+
+.about-names-pictures-text-info {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.73; /* 26/15 */
+  max-width: 678px;
+  margin: 0 auto;
+}
+
+/* Section About Team */
+
+.about-team {
+  padding-bottom: 60px;
+}
+
+.about-team-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  column-gap: 56px;
+  row-gap: 56px;
+}
+
+.about-team-person {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+}
+
+.about-team-person-content {
+}
+
+.about-team-person-title {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.4; /* 28/20 */
+}
+
+.about-team-person-text {
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  font-size: 16px;
+  line-height: 1.75; /* 28/16 */
+  border-bottom: 1px solid rgba(218, 199, 152, 1);
+}
+
+.about-team-person-subtext {
+  font-size: 15px;
+  line-height: 1.73; /* 26/15 */
+  color: rgba(126, 116, 109, 1);
+}

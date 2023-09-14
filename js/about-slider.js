@@ -4,6 +4,7 @@ $(".about-slide").slick({
   infinite: true,
   centerMode: true,
   variableWidth: true,
+  centerPadding: "0",
   slidesToShow: 1,
   slidesToScroll: 1,
   edgeFriction: 0.5,

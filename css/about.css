@@ -63,6 +63,14 @@ body {
   margin-bottom: 60px;
 }
 
+.about-content p {
+  line-height: 1.73; /* 26/15 */
+}
+
+.about-content p + p {
+  margin-top: 20px;
+}
+
 /* Section About Hero */
 
 .about-hero {
@@ -75,8 +83,7 @@ body {
   object-fit: contain;
   background-image: url(../img/about-hero.png);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 60%;
+  background-size: 100% 100%;
 }
 
 /* Section About Project */
@@ -111,15 +118,11 @@ body {
 .about-img {
 }
 
-.about-subtitile {
+.about-subtitle {
   font-family: "KyivType Sans", sans-serif;
   font-weight: 500;
   font-size: 24px;
   line-height: 1.33; /* 32/24 */
-}
-
-.about-text {
-  line-height: 1.73; /* 26/15 */
 }
 
 /* About Pictures */
@@ -141,6 +144,14 @@ body {
   position: relative;
 }
 
+.about-pictures-content p {
+  font-style: italic;
+  font-size: 13px;
+  line-height: 1.38; /* 18/13 */
+  text-align: center;
+  color: rgba(87, 87, 87, 1);
+}
+
 .pictures-content-top {
   margin-bottom: 193px;
 }
@@ -154,15 +165,7 @@ body {
 .about-pictures-triangle-red {
   position: absolute;
   bottom: 41px;
-  left: -105px;
-}
-
-.about-pictures-text {
-  font-style: italic;
-  font-size: 13px;
-  line-height: 1.38; /* 18/13 */
-  text-align: center;
-  color: rgba(87, 87, 87, 1);
+  left: -100px;
 }
 
 /* Section About Collection */
@@ -175,35 +178,27 @@ body {
   background-size: 100% 100%;
 }
 
-.about-text-collection1 {
-  margin-bottom: 20px;
-}
-
 /* Slick Slider */
 
 .about-slide-wrap {
   position: relative;
-  max-width: 1440px;
-  overflow: hidden;
+  width: 100%;
   margin: 0 auto;
 }
 
-.about-slide {
-}
-
 .about-slide-item {
-  margin-left: 13px;
-  margin-right: 13px;
-}
-
-.slick-slide {
+  margin-left: 28px;
+  margin-right: 28px;
+  height: fit-content;
 }
 
 .about-collection-slide-img {
-  margin: 0;
+  margin: 0 auto;
+  max-width: 648px;
+  height: 400px;
 }
 
-.about-collection-slide-text {
+.about-slide-item p {
   max-width: 478px;
   margin: 0 auto;
   margin-top: 16px;
@@ -216,20 +211,44 @@ body {
 
 .about-slide-prev,
 .about-slide-next {
+  display: block;
+  position: absolute;
   background-color: transparent;
   border: none;
 }
 
 .about-slide-prev {
-  position: absolute;
   top: 40%;
-  left: 335px;
+  left: 26%;
 }
 
 .about-slide-next {
-  position: absolute;
   top: 40%;
-  right: 335px;
+  right: 26%;
+}
+
+@media screen and (min-width: 1920px) {
+  .about-slide-item {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .about-collection-slide-img {
+  max-width: 728px;
+  height: 450px;
+}
+
+  .about-slide-item p {
+    max-width: 678px;
+  }
+
+  .about-slide-prev {
+  left: 29%;
+}
+
+.about-slide-next {
+  right: 29%;
+}
 }
 
 /* Section About Names */
@@ -256,6 +275,14 @@ body {
   justify-content: center;
   gap: 16px;
   position: relative;
+}
+
+.about-names-pictures-wrap p {
+  font-style: italic;
+  font-size: 13px;
+  line-height: 1.38; /* 18/13 */
+  text-align: center;
+  color: rgba(87, 87, 87, 1);
 }
 
 .about-names-kat-myh {
@@ -288,15 +315,7 @@ body {
   right: -80px;
 }
 
-.about-names-pictures-text {
-  font-style: italic;
-  font-size: 13px;
-  line-height: 1.38; /* 18/13 */
-  text-align: center;
-  color: rgba(87, 87, 87, 1);
-}
-
-.about-names-pictures-text-info {
+.about-names p:last-child {
   font-weight: 500;
   font-size: 15px;
   line-height: 1.73; /* 26/15 */
@@ -327,9 +346,6 @@ body {
   width: 300px;
 }
 
-.about-team-person-content {
-}
-
 .about-team-person-title {
   margin-top: 24px;
   margin-bottom: 16px;
@@ -338,7 +354,7 @@ body {
   line-height: 1.4; /* 28/20 */
 }
 
-.about-team-person-text {
+.about-team-person-content p {
   margin-bottom: 16px;
   padding-bottom: 16px;
   font-size: 16px;
@@ -346,10 +362,19 @@ body {
   border-bottom: 1px solid rgba(218, 199, 152, 1);
 }
 
-.about-team-person-subtext {
+.about-team-person-content p + p {
   font-size: 15px;
   line-height: 1.73; /* 26/15 */
   color: rgba(126, 116, 109, 1);
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border: none;
+}
+
+.about-team-person-text {
+}
+
+.about-team-person-subtext {
 }
 
 /* Section Create Museum */
@@ -362,7 +387,7 @@ body {
   background-size: 100% 100%;
 }
 
-.about-create-museum-title {
+.about-create-museum p {
   font-family: "KyivType Sans", sans-serif;
   font-weight: 500;
   font-size: 32px;
@@ -370,7 +395,7 @@ body {
   margin-bottom: 60px;
 }
 
-.about-create-museum-text {
+.about-create-museum p + p {
   font-family: "KyivType Sans", sans-serif;
   font-weight: 500;
   font-size: 24px;
@@ -378,11 +403,17 @@ body {
   margin-bottom: 20px;
 }
 
+.about-create-museum-title {
+}
+
 .about-create-museum-content {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   gap: 20px;
+}
+
+.about-create-museum-text {
 }
 
 .about-create-museum-img {

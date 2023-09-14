@@ -5,9 +5,8 @@ $(".about-slide").slick({
   centerMode: true,
   variableWidth: true,
   centerPadding: "0",
-  slidesToShow: 1,
+  slidesToShow: 3,
   slidesToScroll: 1,
-  edgeFriction: 0.5,
   arrows: false,
   responsive: [
     {

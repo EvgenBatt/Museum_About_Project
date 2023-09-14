@@ -176,29 +176,55 @@ body {
 }
 
 .about-text-collection1 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 /* Slick Slider */
 
-.about-collection-slide {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.about-slide-wrap {
+  position: relative;
+  max-width: 1440px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.about-slide {
+}
+
+.about-slide-item {
+  margin-right: 26px;
 }
 
 .about-collection-slide-img {
-  margin-bottom: 16px;
+  margin: 0;
 }
 
 .about-collection-slide-text {
   max-width: 478px;
+  margin-top: 16px;
   font-style: italic;
   font-size: 13px;
   line-height: 1.38; /* 18/13 */
   text-align: center;
   color: rgba(87, 87, 87, 1);
+}
+
+.about-slide-prev,
+.about-slide-next {
+  background-color: transparent;
+  border: none;
+}
+
+.about-slide-prev {
+  position: absolute;
+  top: 40%;
+  left: 335px;
+}
+
+.about-slide-next {
+  position: absolute;
+  top: 40%;
+  right: 335px;
 }
 
 /* Section About Names */

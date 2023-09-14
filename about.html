@@ -13,8 +13,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.min.css" />
     <link rel="stylesheet" href="./css/about.css" />
 
-    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://merkur.4bstudio.com.ua/wp-content/themes/temp/assets/css/slick.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://merkur.4bstudio.com.ua/wp-content/themes/temp/assets/css/slick-theme.css" />
   </head>
   <body>
     <header style="width: 100%; height: 115px; background-color: black"></header>
@@ -114,14 +120,34 @@
         </div>
 
         <!-- Slick Slider Start -->
-        <div class="about-collection-slider">
-          <div class="about-collection-slide">
-            <img class="about-collection-slide-img" src="./img/about-slider1.jpg" alt="slider1" width="671" />
-            <p class="about-collection-slide-text">
-              Василь Кричевський. Орнаментальна композиція. Папір, кольорові олівці. 1951. Музей мистецької родини
-              Кричевських в Опішні
-            </p>
-          </div>
+        <div class="about-slide-wrap">
+            <div class="about-slide">
+              <div class="about-slide-item">
+                <img class="about-collection-slide-img" src="./img/about-slider1.jpg" alt="slider1"/>
+                <p class="about-collection-slide-text">
+                  Василь Кричевський. Орнаментальна композиція. Папір, кольорові олівці. 1951. Музей мистецької родини
+                  Кричевських в Опішні
+                </p>
+              </div>
+              <div class="about-slide-item">
+                <img class="about-collection-slide-img" src="./img/about-slider2.jpg" alt="slider2"/>
+                <p class="about-collection-slide-text">
+                  Василь Кричевський.
+                </p>
+              </div>
+              <div class="about-slide-item">
+                <img class="about-collection-slide-img" src="./img/about-slider3.jpg" alt="slider3"/>
+                <p class="about-collection-slide-text">
+                  Василь Кричевський.
+                </p>
+              </div>
+            </div>
+            <button type="button" class="about-slide-prev">
+              <img src="./img/about-slide-arrow-left.svg" alt="Arrow left" width="24" />
+            </button>
+            <button type="button" class="about-slide-next">
+              <img src="./img/about-slide-arrow-right.svg" alt="Arrow right" width="24" />
+            </button>
         </div>
         <!-- Slick Slider End -->
       </section>
@@ -275,17 +301,21 @@
           </p>
           <p class="about-create-museum-text">Створюємо музей спільно!</p>
           <div class="about-create-museum-content">
-            <img class="about-create-museum-img" src="./img/about-create-museum-mail.svg" alt="email" width="24">
-              <a class="about-create-museum-link" href="mailto:museum.diaspora@gmail.com">museum.diaspora@gmail.com</a>
-         </div>
+            <img class="about-create-museum-img" src="./img/about-create-museum-mail.svg" alt="email" width="24" />
+            <a class="about-create-museum-link" href="mailto:museum.diaspora@gmail.com">museum.diaspora@gmail.com</a>
+          </div>
         </div>
       </section>
     </main>
 
     <footer style="width: 100%; height: 523px; background-color: black"></footer>
 
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://merkur.4bstudio.com.ua/wp-content/themes/temp/assets/js/jquery-3.7.0.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://merkur.4bstudio.com.ua/wp-content/themes/temp/assets/js/slick.min.js"></script>
+    <script type="text/javascript" src="./js/about-slider.js"></script>
   </body>
 </html>

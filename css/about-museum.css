@@ -1,0 +1,992 @@
+/* Common Styles */
+
+.container {
+  max-width: 360px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.about-museum-text p {
+  line-height: 1.73; /* 26/15 */
+}
+
+.about-museum-text p + p {
+  margin-top: 16px;
+}
+
+.about-museum-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.about-museum-wrap img {
+  margin: 0;
+}
+
+.about-museum-wrap h2 {
+  font-family: "KyivType Sans", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.56; /* 28/18 */
+}
+
+/* Section About Museum Hero */
+
+.about-museum-hero {
+  margin-bottom: 19px;
+}
+
+.about-museum-hero-img-tab {
+  height: fit-content;
+}
+
+/* Section About Museum */
+
+.about-museum {
+  padding-top: 48px;
+  padding-bottom: 20px;
+}
+
+.about-museum h1 {
+  font-family: "KyivType Sans", sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.35; /* 38/28 */
+  text-align: center;
+  color: rgba(51, 51, 51, 1);
+  margin-bottom: 40px;
+}
+
+/* Section About Museum History */
+
+.about-museum-history {
+  padding-bottom: 40px;
+}
+
+.about-museum-history-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+
+.about-museum-history-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+}
+
+.about-museum-history-content p {
+  max-width: 300px;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 1.57; /* 22/14 */
+}
+
+/* Section About Museum Mission */
+
+.about-museum-mission {
+  padding-bottom: 40px;
+}
+
+.about-museum-mission-wrap {
+  margin-top: 20px;
+}
+
+.about-museum-mission-wrap p {
+  margin: 0 auto;
+  margin-top: 16px;
+  font-style: italic;
+  font-size: 13px;
+  line-height: 1.38; /* 18/13 */
+  color: rgba(87, 87, 87, 1);
+  text-align: center;
+}
+
+/* Section About Museum Collection */
+
+.about-museum-collection {
+  padding-bottom: 40px;
+}
+
+.about-museum-collection-fond {
+  width: 100%;
+  background-image: url(../img/about-museum-collection-fond-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 40px;
+  padding: 16px 0;
+}
+
+.about-museum-collection-fond p {
+  font-family: "KyivType Sans", sans-serif;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 1.2; /* 18/15 */
+  color: rgba(255, 255, 255, 1);
+}
+
+/* Section About Museum Exposure */
+
+.about-museum-exposure {
+  padding-bottom: 40px;
+}
+
+.about-museum-exposure .about-museum-text {
+  margin-bottom: 20px;
+}
+
+.about-museum-exposure .about-museum-curator {
+  margin-bottom: 20px;
+}
+
+.about-museum-exposure .about-museum-curator:last-child {
+  margin-bottom: 40px;
+}
+
+.about-museum-curator {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  gap: 12px;
+}
+
+.about-museum-curator img {
+  margin: 0;
+}
+
+.about-museum-curator p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25; /* 20/16 */
+}
+
+/* About Museum Exposure Images */
+
+.about-museum-exposure-flex-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  max-width: 259px;
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.about-museum-exposure-flex-wrap:nth-child(2) {
+  margin-left: auto;
+  max-width: 280px;
+}
+
+.about-museum-exposure-flex-wrap:nth-child(3) {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-museum-exposure-flex-wrap:last-child {
+  margin-bottom: 40px;
+}
+
+.about-museum-exposure-flex-wrap p {
+  font-style: italic;
+  font-size: 13px;
+  line-height: 1.38; /* 18/13 */
+  color: rgba(87, 87, 87, 1);
+  text-align: center;
+}
+
+.about-museum-exposure-triangle-yellow {
+  position: absolute;
+  bottom: 107px;
+  left: 248px;
+}
+
+.about-museum-exposure-triangle-blue {
+  position: absolute;
+  top: -15px;
+  left: 172px;
+}
+
+.about-museum-exposure-triangle-red {
+  position: absolute;
+  top: -21px;
+  left: 17px;
+}
+
+.about-museum-exposure-paralax {
+  position: relative;
+  width: 100%;
+  height: 113px;
+  overflow: hidden;
+}
+
+.about-museum-exposure-paralax-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/about-museum-exposure-paralax.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Section About Museum Projects */
+
+.about-museum-projects {
+  padding-bottom: 40px;
+}
+
+.about-museum-projects-curator-first {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.about-museum-projects-flex {
+  margin-top: 31px;
+  margin-bottom: 21px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.about-museum-projects-flex-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+  max-width: 275px;
+  position: relative;
+}
+
+@media screen and (max-width: 1439px) {
+  .about-museum-projects-flex .about-museum-projects-flex-wrap:last-child {
+    margin: 0 auto;
+  }
+}
+
+.about-museum-projects-flex-wrap p {
+  font-style: italic;
+  font-size: 13px;
+  line-height: 1.38; /* 18/13 */
+}
+
+.about-museum-projects-triangle-yellow {
+  position: absolute;
+  top: -10px;
+  left: 10px;
+}
+
+.about-museum-projects-triangle-blue {
+  position: absolute;
+  top: -17px;
+  left: 22px;
+}
+
+.about-museum-projects-curator-second {
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+/* About Museum Projects Slider start */
+
+.about-projects-slide-wrap {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.about-projects-slide-item {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 320px;
+}
+
+.about-projects-slide-img {
+  margin: 0 auto;
+  height: 226px;
+}
+
+.about-projects-slide-item p {
+  max-width: 320px;
+  margin: 0 auto;
+  margin-top: 16px;
+  font-style: italic;
+  font-size: 13px;
+  line-height: 1.38; /* 18/13 */
+  text-align: center;
+  color: rgba(87, 87, 87, 1);
+}
+
+.about-projects-slide-prev,
+.about-projects-slide-next {
+  display: block;
+  position: absolute;
+  background-color: transparent;
+  border: none;
+}
+
+.about-projects-slide-prev {
+  top: 30%;
+  left: 10%;
+}
+
+.about-projects-slide-next {
+  top: 30%;
+  right: 10%;
+}
+
+/* About Museum Projects Slider end */
+
+.about-museum-projects .about-museum-text {
+  margin-bottom: 20px;
+}
+
+.about-museum-projects .about-museum-curator {
+  margin-bottom: 20px;
+}
+
+.about-museum-projects .about-museum-text:last-child {
+  margin-bottom: 0;
+}
+
+/* Section About Museum Curators Photos */
+
+.about-museum-curators-photos {
+  padding-bottom: 80px;
+}
+
+.about-museum-curators-photos-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 38px;
+  margin-bottom: 40px;
+}
+
+.about-museum-curators-photos-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.about-museum-curators-photos-item p {
+  font-style: italic;
+  font-size: 13px;
+  line-height: 1.38; /* 18/13 */
+  text-align: center;
+}
+
+.about-museum-curators-photos-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-museum-curators-photos-link {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.29; /* 18/14 */
+  color: rgba(255, 255, 255, 1);
+  padding: 11px 13px;
+  background-color: rgba(235, 89, 88, 1);
+  text-align: center;
+}
+
+@media screen and (min-width: 360px) {
+  .about-museum-curators-photos-link {
+    font-size: 14px;
+  }
+}
+
+/* ---------- MIN-WIDTH 768px ---------- */
+
+@media screen and (min-width: 768px) {
+  /* Common Styles */
+
+  .container {
+    max-width: 768px;
+    padding: 0 45px;
+    margin: 0 auto;
+  }
+
+  .about-museum-text p + p {
+    margin-top: 20px;
+  }
+
+  .about-museum-wrap img {
+    margin: 0;
+    width: 22px;
+    height: 20px;
+  }
+
+  .about-museum-wrap h2 {
+    font-family: "KyivType Sans", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.33; /* 32/24 */
+  }
+
+  /* Section About Museum Hero */
+
+  .about-museum-hero {
+    margin-bottom: 20px;
+  }
+
+  /* Section About Museum */
+
+  .about-museum {
+    padding-top: 60px;
+    padding-bottom: 32px;
+  }
+
+  .about-museum h1 {
+    font-size: 36px;
+    line-height: 1.22; /* 44/36 */
+    text-align: center;
+    margin-bottom: 45px;
+  }
+
+  /* Section About Museum History */
+  .about-museum-history {
+    position: relative;
+  }
+
+  .about-museum-history .about-museum-wrap {
+    margin-bottom: 60px;
+  }
+
+  .about-museum-history-wrap {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 150px;
+  }
+
+  .about-museum-history-content {
+    flex-basis: calc((100% - 150px) / 2);
+  }
+
+  .about-museum-history-content-border {
+    position: absolute;
+    top: 44.4%;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: rgba(218, 199, 152, 1);
+  }
+
+  .about-museum-history-content p {
+    font-style: italic;
+    font-size: 14px;
+    line-height: 1.57; /* 22/14 */
+  }
+
+  /* Section About Museum Mission */
+
+  .about-museum-mission-wrap {
+    margin-top: 32px;
+  }
+
+  .about-museum-mission-wrap img {
+    width: 677px;
+  }
+
+  /* Section About Museum Collection */
+
+  .about-museum-collection-fond {
+    margin-top: 40px;
+    padding: 34px 0;
+  }
+
+  .about-museum-collection-fond p {
+    max-width: 653px;
+    margin: 0 auto;
+    font-size: 32px;
+    line-height: 1.23; /* 37/3 */
+  }
+
+  /* Section About Museum Exposure */
+
+  .about-museum-exposure .about-museum-text:nth-child(5) {
+    margin-bottom: 32px;
+  }
+
+  /* About Museum Exposure Images */
+
+  .about-museum-exposure-flex-wrap {
+    max-width: 320px;
+    margin-bottom: 0;
+  }
+
+  .about-museum-exposure-flex-wrap:nth-child(2) {
+    max-width: 320px;
+    margin-top: -122px;
+  }
+
+  .about-museum-exposure-flex-wrap:nth-child(3) {
+    margin-left: 0;
+    margin-right: auto;
+    max-width: 340px;
+    margin-top: -52px;
+  }
+
+  .about-museum-exposure-triangle-yellow {
+    width: 62px;
+    height: 55px;
+    position: absolute;
+    bottom: 205px;
+    left: 289px;
+  }
+
+  .about-museum-exposure-triangle-blue {
+    width: 61px;
+    height: 54px;
+    position: absolute;
+    top: -86px;
+    left: 175px;
+  }
+
+  .about-museum-exposure-triangle-red {
+    width: 67px;
+    height: 58px;
+    position: absolute;
+    top: 112px;
+    left: 488px;
+  }
+
+  .about-museum-exposure-paralax {
+    position: relative;
+    width: 100%;
+    height: 315px;
+    overflow: hidden;
+  }
+  
+  .about-museum-exposure-paralax-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/about-museum-exposure-paralax.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  /* Section About Museum Projects */
+
+  .about-museum-projects {
+    padding-bottom: 32px;
+  }
+
+  .about-museum-projects-curator-first {
+    margin-top: 20px;
+    margin-bottom: 32px;
+  }
+
+  .about-museum-projects-flex {
+    margin-top: 57px;
+    margin-bottom: 40px;
+    flex-direction: row;
+    gap: 36px;
+  }
+
+  .about-museum-projects-flex-wrap {
+    max-width: 320px;
+  }
+
+  .about-museum-projects-flex .about-museum-projects-flex-wrap:last-child {
+    margin-top: 168px;
+  }
+
+  .about-museum-projects-triangle-yellow {
+    width: 76px;
+    top: -25px;
+    left: 37px;
+  }
+
+  .about-museum-projects-triangle-blue {
+    width: 91px;
+    top: -56px;
+    left: 53px;
+  }
+
+  .about-museum-projects-curator-second {
+    margin-top: 20px;
+  }
+
+  /* About Museum Projects Slider start */
+
+  .about-projects-slide-item {
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 576px;
+  }
+
+  .about-projects-slide-img {
+    height: 350px;
+  }
+
+  .about-projects-slide-item p {
+    max-width: 478px;
+  }
+
+  .about-projects-slide-prev {
+    top: 35%;
+    left: 8%;
+  }
+
+  .about-projects-slide-next {
+    top: 35%;
+    right: 8%;
+  }
+
+  .about-museum-projects .about-museum-text:nth-child(1) {
+    margin-bottom: 15px;
+  }
+
+  .about-museum-projects .about-museum-curator:nth-child(3) {
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+
+  /* Section About Museum Curators Photos */
+
+  .about-museum-curators-photos-flex {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+  }
+
+  .about-museum-curators-photos-item:nth-child(1) {
+    width: 539px;
+  }
+
+  .about-museum-curators-photos-item:nth-child(2) {
+    width: 289px;
+  }
+
+  .about-museum-curators-photos-item:nth-child(3) {
+    width: 320px;
+  }
+
+  .about-museum-curators-photos-link {
+    width: 100%;
+  }
+}
+
+/* ---------- MAX-WIDTH 1023px ---------- */
+
+@media screen and (max-width: 1023px) {
+  /* Section About Museum Hero */
+
+  .about-museum-hero-img-desk {
+    display: none;
+  }
+}
+
+/* ---------- MIN-WIDTH 1024px ---------- */
+
+@media screen and (min-width: 1024px) {
+  /* Section About Museum Hero */
+
+  .about-museum-hero-img-tab {
+    display: none;
+  }
+
+  .about-museum-hero-img-desk {
+    display: block;
+    height: fit-content;
+  }
+}
+
+/* ---------- MIN-WIDTH 1440px ---------- */
+
+@media screen and (min-width: 1440px) {
+  /* Common Styles */
+
+  .container {
+    max-width: 1440px;
+    padding: 0 110px;
+    margin: 0 auto;
+  }
+
+  .about-museum-text {
+    max-width: 678px;
+    margin: 0 auto;
+  }
+
+  .about-museum-wrap {
+    max-width: 678px;
+    margin: 0 auto;
+    gap: 13px;
+    margin-bottom: 32px;
+  }
+
+  .about-museum-wrap img {
+    width: 23px;
+  }
+
+  /* Section About Museum */
+
+  .about-museum {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .about-museum h1 {
+    font-size: 40px;
+    line-height: 1.2; /* 48/40 */
+    margin-bottom: 40px;
+  }
+
+  /* Section About Museum History */
+
+  .about-museum-history {
+    padding-bottom: 82px;
+  }
+
+  .about-museum-history-wrap {
+    gap: 252px;
+  }
+
+  .about-museum-history-content {
+    flex-basis: calc((100% - 252px) / 2);
+  }
+
+  .about-museum-history-content-border {
+    top: 47.4%;
+  }
+
+  .about-museum-history-content p {
+    max-width: 446px;
+  }
+
+  /* Section About Museum Mission */
+
+  .about-museum-mission {
+    padding-bottom: 60px;
+  }
+
+  .about-museum-mission-wrap {
+    margin-top: 40px;
+  }
+
+  .about-museum-mission-wrap p {
+    max-width: 462px;
+  }
+
+  /* Section About Museum Collection */
+
+  .about-museum-collection {
+    padding-bottom: 60px;
+  }
+
+  .about-museum-collection .about-museum-wrap {
+    margin-bottom: 20px;
+  }
+
+  .about-museum-collection-fond {
+    margin-top: 60px;
+    padding: 64px 0;
+  }
+
+  .about-museum-collection-fond p {
+    max-width: 1225px;
+    font-size: 60px;
+    line-height: 1.17; /* 70/60 */
+  }
+
+  /* Section About Museum Exposure */
+
+  .about-museum-exposure {
+    padding-bottom: 60px;
+  }
+
+  .about-museum-exposure .about-museum-wrap {
+    margin-bottom: 20px;
+  }
+
+  .about-museum-curator {
+    max-width: 678px;
+    margin: 0 auto;
+  }
+
+  .about-museum-exposure .about-museum-text:nth-child(5) {
+    margin-bottom: 40px;
+  }
+
+  /* About Museum Exposure Images */
+
+  .about-museum-exposure-flex-wrap {
+    max-width: 458px;
+  }
+
+  .about-museum-exposure-flex-wrap:nth-child(2) {
+    max-width: 482px;
+    margin-top: -240px;
+  }
+
+  .about-museum-exposure-flex-wrap:nth-child(3) {
+    margin-left: 135px;
+    max-width: 491px;
+    margin-top: 0;
+    margin-bottom: 60px;
+  }
+
+  .about-museum-exposure-triangle-yellow {
+    width: 114px;
+    height: 99px;
+    bottom: 231px;
+    left: 423px;
+  }
+
+  .about-museum-exposure-triangle-blue {
+    width: 109px;
+    height: 94px;
+    top: -118px;
+    left: 249px;
+  }
+
+  .about-museum-exposure-triangle-red {
+    width: 91px;
+    height: 78px;
+    top: 120px;
+    left: 603px;
+  }
+
+  .about-museum-exposure-paralax {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+  }
+  
+  .about-museum-exposure-paralax-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/about-museum-exposure-paralax.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  /* Section About Museum Projects */
+
+  .about-museum-projects {
+    padding-bottom: 40px;
+  }
+
+  .about-museum-projects-flex {
+    margin-bottom: 60px;
+    justify-content: center;
+    gap: 112px;
+  }
+
+  .about-museum-projects-flex-wrap {
+    max-width: 515px;
+  }
+
+  .about-museum-projects-flex .about-museum-projects-flex-wrap:last-child {
+    align-self: flex-end;
+  }
+
+  .about-museum-projects .about-museum-wrap {
+    margin-bottom: 20px;
+  }
+
+  .about-museum-projects .about-museum-curator:nth-child(3) {
+    margin-top: 20px;
+    margin-bottom: 32px;
+  }
+
+  .about-museum-projects-triangle-yellow {
+    top: -17px;
+    left: 38px;
+  }
+
+  .about-museum-projects-triangle-blue {
+    width: 137px;
+    top: -94px;
+    left: 30px;
+  }
+
+  .about-museum-projects .about-museum-curator {
+    margin-bottom: 40px;
+  }
+
+  /* About Museum Projects Slider start */
+
+  .about-projects-slide-item {
+    margin-left: 60px;
+    margin-right: 60px;
+    width: 648px;
+  }
+
+  .about-projects-slide-img {
+    height: 400px;
+  }
+
+  .about-projects-slide-prev {
+    top: 40%;
+    left: 24%;
+  }
+
+  .about-projects-slide-next {
+    top: 40%;
+    right: 24%;
+  }
+
+  .about-museum-curator-bottom-wrap .about-museum-curator {
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+
+  .about-museum-curator-bottom-wrap .about-museum-curator:last-child {
+    margin-bottom: 15px;
+  }
+
+  /* Section About Museum Curators Photos */
+
+  .about-museum-curators-photos-flex {
+    flex-wrap: nowrap;
+    gap: 38px;
+    margin-bottom: 40px;
+  }
+
+  .about-museum-curators-photos-item:nth-child(1) {
+    width: 409px;
+  }
+
+  .about-museum-curators-photos-item:nth-child(2) {
+    width: 349px;
+  }
+
+  .about-museum-curators-photos-item:nth-child(3) {
+    width: 386px;
+  }
+
+  .about-museum-curators-photos-link {
+    width: 678px;
+  }
+}

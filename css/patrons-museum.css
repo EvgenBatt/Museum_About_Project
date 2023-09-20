@@ -1,0 +1,546 @@
+/* Common Styles */
+
+.container {
+  max-width: 360px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.patrons-museum-text p {
+  line-height: 1.73; /* 26/15 */
+  margin-bottom: 20px;
+}
+
+.patrons-museum-text p + p {
+  margin-top: 40px;
+}
+
+.patrons-museum-text:last-child p {
+  margin-bottom: 0;
+}
+
+/* Section Patrons Museum Hero */
+
+.patrons-museum-hero {
+  padding-bottom: 19px;
+}
+
+.patrons-museum-hero-img-tab {
+  height: fit-content;
+}
+
+/* Section Patrons Museum Benefactors */
+
+.patrons-museum-benefactors {
+  padding-top: 48px;
+  padding-bottom: 40px;
+}
+
+.patrons-museum-benefactors h1 {
+  font-family: "KyivType Sans", sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.35; /* 38/28 */
+  text-align: center;
+  color: rgba(51, 51, 51, 1);
+  margin-bottom: 40px;
+}
+
+.patrons-museum-benefactors-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.patrons-museum-benefactors-content p {
+  font-style: italic;
+  font-size: 13px;
+  line-height: 1.38; /* 18/13 */
+  color: rgba(87, 87, 87, 1);
+  text-align: center;
+}
+
+.patrons-museum-benefactors-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+}
+
+.patrons-museum-benefactors-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  max-width: 240px;
+  position: relative;
+}
+
+.patrons-museum-benefactors-item:last-child {
+  max-width: 322px;
+}
+
+.patrons-museum-benefactors-item p {
+  font-style: italic;
+  font-size: 13px;
+  line-height: 1.38; /* 18/13 */
+  text-align: center;
+  color: rgba(87, 87, 87, 1);
+}
+
+.patrons-museum-benefactors-triangle-yellow {
+  width: 84px;
+  position: absolute;
+  top: 23px;
+  right: -42px;
+}
+
+@media screen and (max-width: 767px) {
+  .patrons-museum-benefactors-triangle-red {
+    display: none;
+  }
+}
+
+/* Section Patrons Museum Collection */
+
+.patrons-museum-collection {
+  background-color: rgba(243, 243, 243, 1);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.patrons-museum-collection-flex {
+  margin-top: 53px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 26px;
+}
+
+.patrons-museum-collection-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  position: relative;
+  max-width: 340px;
+}
+
+.patrons-museum-collection-item p {
+  font-style: italic;
+  font-size: 13px;
+  line-height: 1.38; /* 18/13 */
+  text-align: center;
+  color: rgba(87, 87, 87, 1);
+}
+
+.patrons-museum-collection-triangle-blue {
+  width: 59px;
+  position: absolute;
+  top: -26px;
+  right: 40px;
+}
+
+.patrons-museum-collection-triangle-yellow {
+  width: 58px;
+  position: absolute;
+  top: -26px;
+  right: 24px;
+}
+
+.patrons-museum-collection-triangle-red {
+  width: 55px;
+  position: absolute;
+  top: -16px;
+  right: 196px;
+}
+
+/* Section Patrons Museum Activity */
+
+.patrons-museum-activity {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.patrons-museum-activity-flex {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.patrons-museum-activity-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  max-width: 340px;
+}
+
+.patrons-museum-activity-item p {
+  font-style: italic;
+  font-size: 13px;
+  line-height: 1.38; /* 18/13 */
+  text-align: center;
+  color: rgba(87, 87, 87, 1);
+}
+
+/* Section Patrons Museum Support */
+
+.patrons-museum-support {
+  padding-bottom: 80px;
+}
+
+.patrons-museum-support-border {
+  border: 2px solid rgba(126, 116, 109, 1);
+}
+
+.patrons-museum-support-content {
+  padding: 28px 21px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.patrons-museum-support-content h2 {
+  font-family: "KyivType Sans", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.56; /* 28/18 */
+  text-align: center;
+}
+
+.patrons-museum-support-content a {
+  padding: 11px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  line-height: 1.29; /* 18/14 */
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(235, 89, 88, 1);
+}
+
+/* ---------- MIN-WIDTH 768px ---------- */
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 45px;
+  }
+
+  .patrons-museum-text p {
+    margin-bottom: 40px;
+  }
+
+  /* Section Patrons Museum Hero */
+
+  .patrons-museum-hero {
+    padding-bottom: 20px;
+  }
+
+  /* Section Patrons Museum Benefactors */
+
+  .patrons-museum-benefactors {
+    padding-top: 60px;
+  }
+
+  .patrons-museum-benefactors h1 {
+    font-size: 36px;
+    line-height: 1.22; /* 44/36 */
+    margin-bottom: 44px;
+  }
+
+  .patrons-museum-benefactors-content {
+    margin-bottom: 40px;
+  }
+
+  .patrons-museum-benefactors-flex {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 36px;
+  }
+
+  .patrons-museum-benefactors-item {
+    max-width: 277px;
+  }
+
+  .patrons-museum-benefactors-item img {
+    max-width: 220px;
+  }
+
+  .patrons-museum-benefactors-item:last-child {
+    max-width: 340px;
+  }
+
+  .patrons-museum-benefactors-item:last-child img {
+    max-width: 276px;
+  }
+
+  .patrons-museum-benefactors-triangle-yellow {
+    width: 52px;
+    top: 26px;
+    right: 2px;
+  }
+
+  .patrons-museum-benefactors-triangle-red {
+    display: block;
+    width: 52px;
+    position: absolute;
+    top: 95px;
+    right: 6px;
+  }
+
+  /* Section Patrons Museum Collection */
+
+  .patrons-museum-collection {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .patrons-museum-collection-flex {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 52px;
+  }
+
+  .patrons-museum-collection-item:nth-child(2) {
+    align-self: flex-end;
+  }
+
+  .patrons-museum-collection-item {
+    max-width: 536px;
+  }
+
+  .patrons-museum-collection-item:nth-child(1) img {
+    max-width: 361px;
+  }
+
+  .patrons-museum-collection-item:nth-child(2) img {
+    max-width: 356px;
+  }
+
+  .patrons-museum-collection-item:nth-child(3) img {
+    max-width: 343px;
+  }
+
+  .patrons-museum-collection-triangle-blue {
+    width: 85px;
+    top: 198px;
+    right: -112px;
+  }
+
+  .patrons-museum-collection-triangle-yellow {
+    width: 66px;
+    top: 580px;
+    right: 42px;
+  }
+
+  .patrons-museum-collection-triangle-red {
+    width: 65px;
+    top: 28px;
+    right: 58px;
+  }
+
+  /* Section Patrons Museum Activity */
+
+  .patrons-museum-activity-flex {
+    margin-bottom: 40px;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 37px;
+  }
+
+  .patrons-museum-activity-item {
+    max-width: 320px;
+  }
+
+  /* Section Patrons Museum Support */
+
+  .patrons-museum-support {
+    padding-bottom: 100px;
+  }
+
+  .patrons-museum-support-content {
+    padding: 50px 42px;
+    gap: 32px;
+  }
+
+  .patrons-museum-support-content h2 {
+    font-size: 28px;
+    line-height: 1.386; /* 38/28 */
+  }
+}
+
+/* ---------- MAX-WIDTH 1023px ---------- */
+
+@media screen and (max-width: 1023px) {
+  /* Section Patrons Museum Hero */
+
+  .patrons-museum-hero-img-desk {
+    display: none;
+  }
+}
+
+/* ---------- MIN-WIDTH 1024px ---------- */
+
+@media screen and (min-width: 1024px) {
+  /* Section Patrons Museum Hero */
+
+  .patrons-museum-hero-img-tab {
+    display: none;
+  }
+
+  .patrons-museum-hero-img-desk {
+    display: block;
+    height: fit-content;
+  }
+}
+
+/* ---------- MIN-WIDTH 1440px ---------- */
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    padding: 0 110px;
+  }
+
+  .patrons-museum-text {
+    max-width: 678px;
+    margin: 0 auto;
+  }
+
+  .patrons-museum-text p + p {
+    margin-top: 60px;
+  }
+
+  /* Section Patrons Museum Benefactors */
+
+  .patrons-museum-benefactors h1 {
+    font-size: 40px;
+    line-height: 1.2; /* 48/40 */
+    margin-bottom: 50px;
+  }
+
+  .patrons-museum-benefactors-content {
+    max-width: 678px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+
+  .patrons-museum-benefactors-content p {
+    max-width: 500px;
+  }
+
+  .patrons-museum-benefactors-flex {
+    gap: 32px;
+  }
+
+  .patrons-museum-benefactors-item,
+  .patrons-museum-benefactors-item:last-child {
+    max-width: 500px;
+  }
+
+  .patrons-museum-benefactors-item img {
+    max-width: 263px;
+  }
+
+  .patrons-museum-benefactors-item:last-child img {
+    max-width: 404px;
+  }
+
+  .patrons-museum-benefactors-triangle-yellow {
+    width: 84px;
+    top: 38px;
+    right: 75px;
+  }
+
+  .patrons-museum-benefactors-triangle-red {
+    width: 109px;
+    top: 124px;
+    right: -5px;
+  }
+
+  /* Section Patrons Museum Collection */
+
+  .patrons-museum-collection-flex {
+    gap: 0;
+  }
+
+  .patrons-museum-collection-item:nth-child(2) {
+    margin-top: -374px;
+  }
+
+  .patrons-museum-collection-item:nth-child(3) {
+    margin-left: 150px;
+    margin-top: -38px;
+  }
+
+  .patrons-museum-collection-item:nth-child(1),
+  .patrons-museum-collection-item:nth-child(1) img {
+    max-width: 531px;
+  }
+
+  .patrons-museum-collection-item:nth-child(2),
+  .patrons-museum-collection-item:nth-child(2) img {
+    max-width: 559px;
+  }
+
+  .patrons-museum-collection-item:nth-child(3),
+  .patrons-museum-collection-item:nth-child(3) img {
+    max-width: 422px;
+  }
+
+  .patrons-museum-collection-triangle-blue {
+    width: 109px;
+    top: 0;
+    right: -488px;
+  }
+
+  .patrons-museum-collection-triangle-yellow {
+    width: 114px;
+    top: 638px;
+    right: 194px;
+  }
+
+  .patrons-museum-collection-triangle-red {
+    width: 91px;
+    top: 49px;
+    right: -58px;
+  }
+
+  /* Section Patrons Museum Activity */
+
+  .patrons-museum-activity {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .patrons-museum-activity-flex {
+    margin-bottom: 60px;
+    gap: 33px;
+  }
+
+  .patrons-museum-activity-item {
+    max-width: 558px;
+  }
+
+  /* Section Patrons Museum Support */
+
+  .patrons-museum-support-border {
+    max-width: 678px;
+    margin: 0 auto;
+  }
+}

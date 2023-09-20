@@ -17,7 +17,7 @@
 .about-museum-wrap {
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-start;
   gap: 12px;
   margin-bottom: 20px;
 }
@@ -575,7 +575,7 @@
     height: 315px;
     overflow: hidden;
   }
-  
+
   .about-museum-exposure-paralax-img {
     position: absolute;
     top: 0;
@@ -877,7 +877,7 @@
     height: 450px;
     overflow: hidden;
   }
-  
+
   .about-museum-exposure-paralax-img {
     position: absolute;
     top: 0;

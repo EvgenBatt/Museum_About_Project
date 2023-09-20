@@ -1,31 +1,31 @@
 /* About Museum Slide */
-$(".about-projects-slide").slick({
+$(".about-museum-slide").slick({
   dots: false,
   infinite: true,
   centerMode: true,
   variableWidth: true,
-  slidesToShow: 3,
+  slidesToShow: 1,
   slidesToScroll: 1,
   arrows: false,
   responsive: [
     {
       breakpoint: 1920,
       settings: {
-        slidesToShow: 3,
+        slidesToShow: 1,
         slidesToScroll: 1,
       },
     },
     {
       breakpoint: 1440,
       settings: {
-        slidesToShow: 3,
+        slidesToShow: 1,
         slidesToScroll: 1,
       },
     },
     {
       breakpoint: 768,
       settings: {
-        slidesToShow: 3,
+        slidesToShow: 1,
         slidesToScroll: 1,
       },
     },
@@ -34,16 +34,15 @@ $(".about-projects-slide").slick({
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
-        centerPadding: "0",
       },
     },
   ],
 });
 
-$(".about-projects-slide-prev").on("click", function () {
-  $(".about-projects-slide").slick("slickPrev");
+$(".about-museum-slide-prev").on("click", function () {
+  $(".about-museum-slide").slick("slickPrev");
 });
 
-$(".about-projects-slide-next").on("click", function () {
-  $(".about-projects-slide").slick("slickNext");
+$(".about-museum-slide-next").on("click", function () {
+  $(".about-museum-slide").slick("slickNext");
 });

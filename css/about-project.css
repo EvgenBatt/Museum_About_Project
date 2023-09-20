@@ -1,0 +1,922 @@
+/* Common Styles */
+
+.container {
+  max-width: 360px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.about-project-subtitle {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.about-project-subtitle img {
+  width: 18px;
+  height: 15px;
+  margin: 0;
+}
+
+.about-project-subtitle h2 {
+  font-family: "KyivType Sans", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.56; /* 28/18 */
+}
+
+.about-project-text {
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+.about-project-text p {
+  line-height: 1.73; /* 26/15 */
+}
+
+.about-project-text p + p {
+  margin-top: 20px;
+}
+
+/* Section About Project Hero */
+
+.about-project-hero {
+  padding-bottom: 19px;
+}
+
+.about-project-hero-img-tab {
+  height: fit-content;
+}
+
+/* Section About Project */
+
+.about-project {
+  padding-top: 48px;
+  padding-bottom: 32px;
+}
+
+.about-project h1 {
+  font-family: "KyivType Sans", sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.36; /* 38/28 */
+  text-align: center;
+  color: rgba(51, 51, 51, 1);
+  margin-bottom: 40px;
+}
+
+/* Section About Project Mission */
+
+.about-project-mission {
+  padding-bottom: 32px;
+}
+
+.about-project-pictures-flex {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 30px;
+}
+
+.about-project-pictures-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  position: relative;
+}
+
+.about-project-pictures-item:nth-child(1) {
+  max-width: 266px;
+}
+
+.about-project-pictures-item:nth-child(2) {
+  max-width: 238px;
+}
+
+@media screen and (max-width: 767px) {
+  .about-project-pictures-item:nth-child(2) {
+    align-self: flex-start;
+  }
+}
+
+.about-project-pictures-item:nth-child(3) {
+  max-width: 211px;
+}
+
+.about-project-pictures-item p {
+  font-style: italic;
+  font-size: 13px;
+  line-height: 1.38; /* 18/13 */
+  text-align: center;
+}
+
+.about-project-pictures-triangle-blue {
+  width: 59px;
+  height: 51px;
+  position: absolute;
+  top: 25px;
+  left: -29px;
+}
+
+.about-project-pictures-triangle-red {
+  width: 80px;
+  height: 69px;
+  position: absolute;
+  top: 25px;
+  left: -40px;
+}
+
+/* About Project Founders */
+
+.about-project-founders {
+  padding-bottom: 32px;
+}
+
+/* Section About Project Collection */
+
+.about-project-collection {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-image: url(../img/about-collection-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: top left 15%;
+  background-size: cover;
+}
+
+/* Slick Slider */
+
+.about-project-slide-wrap {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 28px;
+}
+
+.about-project-slide-item {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 320px;
+}
+
+.about-project-collection-slide-img {
+  margin: 0 auto;
+  max-width: 320px;
+  height: 210px;
+}
+
+.about-project-slide-item p {
+  max-width: 300px;
+  font-style: italic;
+  font-size: 13px;
+  line-height: 1.38; /* 18/13 */
+  text-align: center;
+  color: rgba(87, 87, 87, 1);
+  margin: 0 auto;
+  margin-top: 16px;
+}
+
+.about-project-slide-prev,
+.about-project-slide-next {
+  display: block;
+  position: absolute;
+  background-color: transparent;
+  border: none;
+}
+
+.about-project-slide-prev {
+  top: 30%;
+  left: 5%;
+}
+
+.about-project-slide-next {
+  top: 30%;
+  right: 5%;
+}
+
+/* Section About Project Names */
+
+.about-project-names {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.about-project-names-pictures-flex {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.about-project-names-pictures-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  position: relative;
+}
+
+.about-project-names-pictures-item:nth-child(1) {
+  max-width: 266px;
+}
+
+.about-project-names-pictures-item:nth-child(2) {
+  max-width: 266px;
+}
+
+.about-project-names-pictures-item:nth-child(3) {
+  max-width: 320px;
+}
+
+@media screen and (max-width: 767px) {
+  .about-project-names-pictures-item:nth-child(2) {
+    align-self: flex-end;
+  }
+
+  .about-project-names-pictures-item:nth-child(3) {
+    align-self: center;
+  }
+}
+
+.about-project-names-pictures-item:nth-child(1) img {
+  max-width: 212px;
+}
+
+.about-project-names-pictures-item:nth-child(2) img {
+  max-width: 243px;
+}
+
+.about-project-names-pictures-item:nth-child(3) img {
+  max-width: 320px;
+}
+
+.about-project-names-pictures-item p {
+  font-style: italic;
+  font-size: 13px;
+  line-height: 1.38; /* 18/13 */
+  text-align: center;
+}
+
+.about-project-names-pictures-triangle-blue {
+  width: 66px;
+  height: 57px;
+  position: absolute;
+  top: 236px;
+  right: -5px;
+}
+
+.about-project-names-pictures-triangle-red {
+  width: 53px;
+  height: 46px;
+  position: absolute;
+  top: 76px;
+  left: -34px;
+}
+
+@media screen and (max-width: 767px) {
+  .about-project-names-pictures-triangle-yellow {
+    display: none;
+  }
+}
+
+/* Section About Project Team */
+
+.about-project-team {
+  padding-bottom: 60px;
+}
+
+.about-project-team-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+
+.about-project-team-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  max-width: 300px;
+}
+
+.about-project-team-item img {
+  max-width: 200px;
+}
+
+.about-project-team-person-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.about-project-team-person-content h3 {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.53; /* 26/17 */
+}
+
+.about-project-team-person-content p {
+  line-height: 1.6; /* 24/15 */
+}
+
+.about-project-team-person-content p + p {
+  padding-top: 16px;
+  border-top: 1px solid rgba(218, 199, 152, 1);
+  color: rgba(126, 116, 109, 1);
+}
+
+/* Section About Project Create Museum */
+
+.about-project-create-museum {
+  padding-top: 68px;
+  padding-bottom: 68px;
+  background-image: url(../img/about-create-museum-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top 100% right 1%;
+}
+
+.about-project-create-museum-content {
+  margin-bottom: 16px;
+}
+
+.about-project-create-museum-content p {
+  font-family: "KyivType Sans", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.56; /* 28/18 */
+}
+
+.about-project-create-museum-content p + p {
+  margin-top: 40px;
+}
+
+.about-project-create-museum-mail {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.about-project-create-museum-mail img {
+  width: 18px;
+  margin: 0;
+}
+
+.about-project-create-museum-mail a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.65; /* 28/17 */
+  color: rgba(29, 29, 27, 1);
+}
+
+/* ---------- MIN-WIDTH 768px ---------- */
+
+@media screen and (min-width: 768px) {
+  /* Common Styles */
+
+  .container {
+    max-width: 768px;
+    padding: 0 45px;
+    margin: 0 auto;
+  }
+
+  .about-project-subtitle:not(:first-child) {
+    margin-bottom: 20px;
+  }
+
+  .about-project-subtitle {
+    margin-bottom: 16px;
+    gap: 13px;
+  }
+
+  .about-project-subtitle img {
+    width: 23px;
+    height: 20px;
+    margin: 0;
+  }
+
+  .about-project-subtitle h2 {
+    font-family: "KyivType Sans", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.33; /* 32/24 */
+  }
+
+  .about-project-text {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
+  /* Section About Project Hero */
+
+  .about-project-hero {
+    padding-bottom: 20px;
+  }
+
+  /* Section About Project */
+
+  .about-project {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+
+  .about-project h1 {
+    font-size: 36px;
+    line-height: 1.22; /* 44/36 */
+    margin-bottom: 45px;
+  }
+
+  /* Section About Project Mission */
+
+  .about-project-mission {
+    padding-bottom: 40px;
+  }
+
+  .about-project-pictures-flex {
+    margin-top: 32px;
+    align-items: center;
+    gap: 0;
+  }
+
+  @media screen and (max-width: 1439px) {
+    .about-project-pictures-item:nth-child(1) {
+      max-width: 334px;
+    }
+
+    .about-project-pictures-item:nth-child(2) {
+      max-width: 281px;
+      align-self: flex-start;
+      margin-top: 61px;
+    }
+
+    .about-project-pictures-item:nth-child(3) {
+      max-width: 226px;
+      align-self: flex-end;
+      margin-top: -240px;
+    }
+  }
+
+  .about-project-pictures-triangle-blue {
+    width: 81px;
+    height: 69px;
+    top: 36px;
+    left: -40px;
+  }
+
+  .about-project-pictures-triangle-red {
+    width: 74px;
+    height: 64px;
+    top: 129px;
+    left: -37px;
+  }
+
+  /* About Project Founders */
+
+  .about-project-founders {
+    padding-bottom: 40px;
+  }
+
+  /* Section About Project Collection */
+
+  .about-project-collection {
+    padding-top: 73px;
+    padding-bottom: 81px;
+    background-position: top left;
+  }
+
+  /* Slick Slider */
+
+  .about-project-slide-wrap {
+    margin-top: 32px;
+  }
+
+  .about-project-slide-item {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 568px;
+  }
+
+  .about-project-collection-slide-img {
+    max-width: 568px;
+    height: 350px;
+  }
+
+  .about-project-slide-item p {
+    max-width: 478px;
+  }
+
+  .about-project-slide-prev {
+    top: 40%;
+    left: 8%;
+  }
+
+  .about-project-slide-next {
+    top: 40%;
+    right: 8%;
+  }
+
+  /* Section About Project Names */
+
+  .about-project-names {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .about-project-names-pictures-flex {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    column-gap: 52px;
+    row-gap: 32px;
+  }
+
+  .about-project-names-pictures-item:nth-child(1) {
+    max-width: 294px;
+  }
+
+  .about-project-names-pictures-item:nth-child(2) {
+    max-width: 331px;
+  }
+
+  .about-project-names-pictures-item:nth-child(3) {
+    max-width: 431px;
+  }
+
+  .about-project-names-pictures-item:nth-child(1) img {
+    max-width: 258px;
+  }
+
+  .about-project-names-pictures-item:nth-child(2) img {
+    max-width: 331px;
+  }
+
+  .about-project-names-pictures-item:nth-child(3) img {
+    max-width: 431px;
+  }
+
+  .about-project-names-pictures-triangle-blue {
+    width: 62px;
+    height: 54px;
+    top: 30px;
+    right: 244px;
+  }
+
+  .about-project-names-pictures-triangle-red {
+    width: 55px;
+    height: 48px;
+    top: 169px;
+    left: -12px;
+  }
+
+  .about-project-names-pictures-triangle-yellow {
+    width: 98px;
+    height: 85px;
+    position: absolute;
+    top: 157px;
+    right: -49px;
+  }
+
+  /* Section About Project Team */
+
+  .about-project-team {
+    padding-bottom: 40px;
+  }
+
+  .about-project-team-flex {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 56px;
+    row-gap: 40px;
+    margin-top: 32px;
+  }
+
+  .about-project-team-item img {
+    max-width: 232px;
+  }
+
+  .about-project-team-person-content h3 {
+    font-size: 20px;
+    line-height: 1.4; /* 28/20 */
+  }
+
+  .about-project-team-person-content p {
+    font-size: 16px;
+    line-height: 1.75; /* 28/16 */
+  }
+
+  .about-project-team-person-content p + p {
+    padding-top: 16px;
+    border-top: 1px solid rgba(218, 199, 152, 1);
+    color: rgba(126, 116, 109, 1);
+    font-size: 15px;
+    line-height: 1.73; /* 26/15 */
+  }
+
+  /* Section About Project Create Museum */
+
+  .about-project-create-museum {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-position: top right;
+  }
+
+  .about-project-create-museum-content p {
+    font-size: 22px;
+    line-height: 1.55; /* 34/22 */
+  }
+
+  .about-project-create-museum-mail {
+    gap: 20px;
+  }
+
+  .about-project-create-museum-mail img {
+    width: 24px;
+  }
+
+  .about-project-create-museum-mail a {
+    font-size: 22px;
+    line-height: 1.45; /* 32/22 */
+  }
+}
+
+/* ---------- MAX-WIDTH 1023px ---------- */
+
+@media screen and (max-width: 1023px) {
+  /* Section About Project Hero */
+
+  .about-project-hero-img-desk {
+    display: none;
+  }
+}
+
+/* ---------- MIN-WIDTH 1024px ---------- */
+
+@media screen and (min-width: 1024px) {
+  /* Section About Project Hero */
+
+  .about-project-hero-img-tab {
+    display: none;
+  }
+
+  .about-project-hero-img-desk {
+    display: block;
+    height: fit-content;
+  }
+}
+
+/* ---------- MIN-WIDTH 1440px ---------- */
+
+@media screen and (min-width: 1440px) {
+  /* Common Styles */
+
+  .container {
+    max-width: 1440px;
+    padding: 0 110px;
+    margin: 0 auto;
+  }
+
+  .about-project-subtitle {
+    max-width: 678px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+  }
+
+  .about-project-text {
+    max-width: 678px;
+  }
+
+  /* Section About Project */
+
+  .about-project {
+    padding-bottom: 60px;
+  }
+
+  .about-project h1 {
+    font-size: 40px;
+    line-height: 1.2; /* 48/40 */
+    margin-bottom: 48px;
+  }
+
+  /* Section About Project Mission */
+
+  .about-project-mission {
+    padding-bottom: 60px;
+  }
+
+  .about-project-pictures-flex {
+    margin-top: 40px;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 60px;
+  }
+
+  .about-project-pictures-item:nth-child(1) {
+    max-width: 444px;
+    align-self: flex-start;
+    order: 2;
+    margin-bottom: 193px;
+  }
+
+  .about-project-pictures-item:nth-child(2) {
+    max-width: 357px;
+    order: 1;
+  }
+
+  .about-project-pictures-item:nth-child(3) {
+    max-width: 297px;
+    order: 3;
+  }
+
+  .about-project-pictures-triangle-blue {
+    width: 103px;
+    height: 89px;
+    top: 26px;
+    left: -52px;
+  }
+
+  .about-project-pictures-triangle-red {
+    width: 130px;
+    height: 112px;
+    top: 275px;
+    left: -106px;
+  }
+
+  /* About Project Founders */
+
+  .about-project-founders {
+    padding-bottom: 60px;
+  }
+
+  /* Section About Project Collection */
+
+  .about-project-collection {
+    padding-top: 79px;
+    padding-bottom: 67px;
+  }
+
+  /* Slick Slider */
+
+  .about-project-slide-wrap {
+    margin-top: 60px;
+  }
+
+  .about-project-slide-item {
+    margin-left: 28px;
+    margin-right: 28px;
+    width: 648px;
+  }
+
+  .about-project-collection-slide-img {
+    max-width: 648px;
+    height: 400px;
+  }
+
+  .about-project-slide-prev {
+    top: 40%;
+    left: 24.5%;
+  }
+
+  .about-project-slide-next {
+    top: 40%;
+    right: 24.5%;
+  }
+
+  /* Section About Project Names */
+
+  .about-project-names {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .about-project-names-pictures-flex {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    column-gap: 230px;
+    row-gap: 37px;
+  }
+
+  .about-project-names-pictures-item:nth-child(1),
+  .about-project-names-pictures-item:nth-child(1) img {
+    max-width: 347px;
+  }
+
+  .about-project-names-pictures-item:nth-child(2),
+  .about-project-names-pictures-item:nth-child(2) img {
+    max-width: 566px;
+  }
+
+  .about-project-names-pictures-item:nth-child(3),
+  .about-project-names-pictures-item:nth-child(3) img {
+    max-width: 543px;
+  }
+
+  .about-project-names-pictures-triangle-blue {
+    width: 114px;
+    height: 99px;
+    top: 31px;
+    right: -57px;
+  }
+
+  .about-project-names-pictures-triangle-red {
+    width: 111px;
+    height: 96px;
+    top: 266px;
+    left: -56px;
+  }
+
+  .about-project-names-pictures-triangle-yellow {
+    top: 60px;
+    right: -68px;
+  }
+
+  /* Section About Project Team */
+
+  .about-project-team {
+    padding-bottom: 60px;
+  }
+
+  .about-project-team-flex {
+    justify-content: center;
+    column-gap: 56px;
+    row-gap: 56px;
+    margin-top: 48px;
+  }
+
+  /* Section About Project Create Museum */
+
+  .about-project-create-museum {
+    padding-top: 94px;
+    padding-bottom: 112px;
+  }
+
+  .about-project-create-museum-content {
+    max-width: 950px;
+    margin-bottom: 20px;
+  }
+
+  .about-project-create-museum-content p {
+    font-size: 32px;
+    line-height: 1.31; /* 42/32 */
+  }
+
+  .about-project-create-museum-content p + p {
+    margin-top: 60px;
+    font-size: 24px;
+    line-height: 1.33; /* 32/24 */
+  }
+
+  .about-project-create-museum-mail a {
+    font-size: 24px;
+    line-height: 1.33; /* 32/24 */
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  /* Slick Slider */
+
+  .about-project-slide-item {
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 728px;
+  }
+
+  .about-project-collection-slide-img {
+    max-width: 728px;
+    height: 450px;
+  }
+
+  .about-project-slide-item p {
+    max-width: 678px;
+  }
+
+  .about-project-slide-prev {
+    top: 40%;
+    left: 28.5%;
+  }
+
+  .about-project-slide-next {
+    top: 40%;
+    right: 28.5%;
+  }
+
+  .about-project-slide-prev img,
+  .about-project-slide-next img {
+    width: 32px;
+  }
+}

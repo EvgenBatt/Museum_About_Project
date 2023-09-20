@@ -1,18 +1,17 @@
 /* About Slide */
-$(".about-slide").slick({
+$(".about-project-slide").slick({
   dots: false,
   infinite: true,
   centerMode: true,
   variableWidth: true,
-  centerPadding: "60px",
-  slidesToShow: 3,
+  slidesToShow: 1,
   slidesToScroll: 1,
   arrows: false,
   responsive: [
     {
       breakpoint: 1920,
       settings: {
-        slidesToShow: 3,
+        slidesToShow: 1,
         slidesToScroll: 1,
         centerMode: true,
       },
@@ -20,7 +19,7 @@ $(".about-slide").slick({
     {
       breakpoint: 1440,
       settings: {
-        slidesToShow: 3,
+        slidesToShow: 1,
         slidesToScroll: 1,
         centerMode: true,
       },
@@ -28,13 +27,13 @@ $(".about-slide").slick({
     {
       breakpoint: 768,
       settings: {
-        slidesToShow: 3,
+        slidesToShow: 1,
         slidesToScroll: 1,
         centerMode: true,
       },
     },
     {
-      breakpoint: 375,
+      breakpoint: 320,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -44,10 +43,10 @@ $(".about-slide").slick({
   ],
 });
 
-$(".about-slide-prev").on("click", function () {
-  $(".about-slide").slick("slickPrev");
+$(".about-project-slide-prev").on("click", function () {
+  $(".about-project-slide").slick("slickPrev");
 });
 
-$(".about-slide-next").on("click", function () {
-  $(".about-slide").slick("slickNext");
+$(".about-project-slide-next").on("click", function () {
+  $(".about-project-slide").slick("slickNext");
 });
